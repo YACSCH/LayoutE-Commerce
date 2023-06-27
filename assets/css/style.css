@@ -8,6 +8,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+span {
+    color: gray;
+}
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -35,11 +38,29 @@ menu {
     grid-area: menu;
     border: 1px solid gray;
 }
+.category {
+    display: flex;
+    flex-direction: column;
+}
 main {
     grid-area: main;
     border: 1px solid gray;
 }
-
+.products-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.products-item img {
+    width: 100%;
+}
+.products-item p {
+    padding: 10px;
+    background-color: rgb(6, 6, 48);
+    color: whitesmoke;
+} 
 footer {
     grid-area:footer;
     border: 1px solid gray;
