@@ -43,8 +43,8 @@ aside h2{
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: repeat(3, .5fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     padding: 10px;
 }
 .product-item {
@@ -57,6 +57,7 @@ main {
 .product-item img {
     width: 100%;
 }
+
 .product-item h2 {
     padding: 10px;
 }
