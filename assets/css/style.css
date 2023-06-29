@@ -73,7 +73,9 @@ main {
     width: 100%;
     padding: 10px;
 } 
-
+.product-item a:hover{
+    background-color: rgb(28, 28, 155);
+}
 footer {
     grid-area:footer;
     text-align: center;
